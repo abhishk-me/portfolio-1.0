@@ -95,9 +95,9 @@ export default function Index() {
     v.current.bckPosX += diffPosX / 10;
     v.current.leftBckWidthChange += diffX / 20;
     const _output = {
-      sectionLeftWidth: 50 - v.current.leftBckWidthChange / 15 + 'vw',
-      sectionRightWidth: 50 + v.current.leftBckWidthChange / 15 + 'vw',
-      containerTransform: 'translateX(' + -v.current.bckPosX / 10 + 'px)',
+      sectionLeftWidth: 50 - v.current.leftBckWidthChange / 20 + 'vw',
+      sectionRightWidth: 50 + v.current.leftBckWidthChange / 20 + 'vw',
+      containerTransform: 'translateX(' + -v.current.bckPosX / 15 + 'px)',
       designerTextTransform: 'translateX(' + v.current.bckPosX / 50 + 'px)',
       designerTextOpacity: 1 - v.current.leftBckWidthChange / 200,
       developerTextTransform: 'translateX(' + v.current.bckPosX / 50 + 'px)',
