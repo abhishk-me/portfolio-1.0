@@ -58,10 +58,10 @@ export default function Index() {
   return (
     <>
       <div className='max-w-xl mx-auto px-4 flex flex-col flex-wrap'>
-        <div className='flex flex-row flex-wrap items-center bg-[#fff] pb-6 overflow-hidden rounded-3xl rounded-bl-lg mt-3 h-80 lg:h-[450px]'>
+        <div className='flex flex-row flex-wrap items-center bg-[#fff] pb-6 overflow-hidden rounded-3xl mt-3 h-80 lg:h-[450px]'>
           <Widget id="OYQHiQPl" style={{ width: '100%', height: "100%", backgroundColor: "#fff" }} className="my-form" />
         </div>
-        <div className='flex flex-row flex-wrap items-center px-6 py-4 bg-white text-black rounded-3xl rounded-bl-lg mt-3'>
+        <div className='flex flex-row flex-wrap items-center px-6 py-4 bg-white text-black rounded-3xl mt-3'>
           <div className='flex flex-col lg:px-2 w-full'>
             <p className=''>
               Or, email me: abhishk.me@gmail.com
